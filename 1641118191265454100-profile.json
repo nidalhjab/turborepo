@@ -1,0 +1,7 @@
+[{"name":"process_name","ph":"M","ts":0,"pid":19224,"tid":19224,"args":{"name":"C:\\Users\\Nhjab\\Documents\\turborepo\\my-turborepo\\node_modules\\turbo-windows-64\\turbo.exe run build --profile"}},
+{"name":"test-app#build","ph":"B","ts":814464,"pid":19224,"tid":0},
+{"name":"second-app#build","ph":"B","ts":814464,"pid":19224,"tid":2},
+{"name":"first-app#build","ph":"B","ts":814464,"pid":19224,"tid":1},
+{"name":"second-app#build","ph":"E","ts":878332,"pid":19224,"tid":2},
+{"name":"first-app#build","ph":"E","ts":915893,"pid":19224,"tid":1},
+{"name":"test-app#build","ph":"E","ts":976106,"pid":19224,"tid":0},

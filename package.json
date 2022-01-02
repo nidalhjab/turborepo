@@ -7,12 +7,20 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build",
+    "build": "turbo run build --profile",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "postcss-preset-env": "^7.1.0",
     "prettier": "^2.5.1",
     "turbo": "latest"
@@ -28,6 +36,12 @@
           ".next/**"
         ]
       },
+      "deploy": {
+        "dependsOn": [
+          "lint",
+          "build"
+        ]
+      },
       "lint": {
         "outputs": []
       },
@@ -39,5 +53,11 @@
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.6",
+    "shared-dep": "file:packages/shared-dep"
   }
 }
