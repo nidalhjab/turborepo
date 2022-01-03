@@ -10,7 +10,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "shared-dep": "../../packages/shared-dep"
+    "shared-dep": "../../packages/shared-dep/*"
   },
   "browserslist": {
     "production": [
