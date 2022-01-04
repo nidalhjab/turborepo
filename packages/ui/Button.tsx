@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "@mui/material/Card";
+import Button from "@mui/material/Button";
 
-export const Button = () => {
-  return <Card>Booop </Card>;
+export const SharedButton = () => {
+  return <Button>Booop </Button>;
 };
