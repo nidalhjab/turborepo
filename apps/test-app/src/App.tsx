@@ -1,11 +1,11 @@
 import React from 'react'
-import { Button } from 'ui'
+import { SharedButton } from 'ui'
 function App() {
   return (
     <div className="App">
       <p>hiiiiiii</p>
 
-      <Button />
+      <SharedButton />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import { Box, Button, Container, Grid, Typography } from '@mui/material';
-import { SharedButton } from 'ui';
+
 import { Link as RouterLink } from 'react-router-dom';
 
 import { styled } from '@mui/material/styles';
@@ -102,7 +102,7 @@ function Hero() {
           >
             Browse Live Preview
           </Button>
-          <SharedButton />
+          <p>HIIIIIIIIIIIII</p>
           <Button
             sx={{ ml: 2 }}
             component="a"
