@@ -102,7 +102,7 @@ function Hero() {
           >
             Browse Live Preview
           </Button>
-          <p>HIIIIIIIIIIIII</p>
+          <p>TEST</p>
           <Button
             sx={{ ml: 2 }}
             component="a"
